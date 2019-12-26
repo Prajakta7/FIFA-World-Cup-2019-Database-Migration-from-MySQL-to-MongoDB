@@ -7,15 +7,15 @@ The input to your program will be several data files in flat relational format f
 
 Following data files for the world cup database:
 
-TEAM(TeamID, Team, Continent, League, Population)
-(* Team is the Team Name, which is the name of one of the participating countries *)
-STADIUM(SID, SName, SCity, SCapacity)
-(* SName and SCity are the name and city of each stadium *)
-PLAYER(Team,TeamID,PNo,Position,PName,Birth Date,Shirt Name,Club,Height,Weight)
-(* PLAYER corresponds to the data in the “rosters” data file – Pno corresponds to PlayerID,
-and PName corresponds to FIFA Popular Name in the rosters file *)
-GAME(GameID,MatchType,MatchDate,SID,TeamID1,TeamID2,Team1_Score,Team2_Score)
-(* GAME corresponds to the data in the “matches” data file *)
-STARTING_LINEUPS(GameID,TeamID,PNo)
-GOALS(GameID,TeamID,PNo,Time,Penalty)
-OWN_GOALS(GameID,TeamID,PNo,Time,For_TeamID)
+1. TEAM(TeamID, Team, Continent, League, Population)
+   (* Team is the Team Name, which is the name of one of the participating countries *)
+2. STADIUM(SID, SName, SCity, SCapacity)
+   (* SName and SCity are the name and city of each stadium *)
+3. PLAYER(Team,TeamID,PNo,Position,PName,Birth Date,Shirt Name,Club,Height,Weight)
+   (* PLAYER corresponds to the data in the “rosters” data file – Pno corresponds to PlayerID,
+     and PName corresponds to FIFA Popular Name in the rosters file *)
+4. GAME(GameID,MatchType,MatchDate,SID,TeamID1,TeamID2,Team1_Score,Team2_Score)
+  (* GAME corresponds to the data in the “matches” data file *)
+5. STARTING_LINEUPS(GameID,TeamID,PNo)
+6. GOALS(GameID,TeamID,PNo,Time,Penalty)
+7. OWN_GOALS(GameID,TeamID,PNo,Time,For_TeamID)
