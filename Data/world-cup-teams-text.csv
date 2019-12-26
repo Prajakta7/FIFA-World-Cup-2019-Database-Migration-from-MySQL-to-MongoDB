@@ -1,0 +1,33 @@
+TeamID,Team,Continent,League,Population
+A1,Russia,Europe,UEFA,144300000
+A2,Saudi Arabia,Asia,AFC,32280000
+A3,Egypt,Africa,CAF,95690000
+A4,Uruguay,South America,CONMEBOL,3444000
+B1,Portugal,Europe,UEFA,10320000
+B2,Spain,Europe,UEFA,46560000
+B3,Morocco,Africa,CAF,35280000
+B4,IR Iran,Asia,AFC,80280000
+C1,France,Europe,UEFA,66900000
+C2,Australia,Australia,AFC,24130000
+C3,Peru,South America,CONMEBOL,31770000
+C4,Denmark,Europe,UEFA,5731000
+D1,Argentina,South America,CONMEBOL,43850000
+D2,Iceland,Europe,UEFA,334252
+D3,Croatia,Europe,UEFA,4171000
+D4,Nigeria,Africa,CAF,186000000
+E1,Brazil,South America,CONMEBOL,207700000
+E2,Switzerland,Europe,UEFA,8372000
+E3,Costa Rica,Central America,CONCACAF,4857000
+E4,Serbia,Europe,UEFA,7057000
+F1,Germany,Europe,UEFA,82670000
+F2,Mexico,North America,CONCACAF,127500000
+F3,Sweden,Europe,UEFA,9903000
+F4,Korea Republic,Asia,AFC,51250000
+G1,Belgium,Europe,UEFA,11350000
+G2,Panama,Carribean,CONCACAF,4037000
+G3,Tunisia,Africa,CAF,11400000
+G4,England,Europe,UEFA,54786000
+H1,Poland,Europe,UEFA,37950000
+H2,Senegal,Africa,CAF,15410000
+H3,Colombia,South America,CONMEBOL,48650000
+H4,Japan,Asia,AFC,127000000
