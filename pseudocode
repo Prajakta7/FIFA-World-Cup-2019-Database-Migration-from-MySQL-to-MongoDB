@@ -1,0 +1,24 @@
+Def main (): 
+ 
+ # connect to mysql database  dbSQL = connect_to_mysqlDb()     gameInfoView1 = retrieve the results from mysql gameInfo view order by  team1 
+ 
+gameInfoView2 = retrieve the results from mysql gameInfo view order by team2 
+ 
+# concatenate the tuples of gameInfoView1 and gameInfoView2 into totalTeamInfo 
+ 
+totalTeamInfo = gameInfoView1 + gameInfoView2 
+ 
+# to store records with team as key and gameinfo as list of values teamScoreMap = {} 
+ 
+# to keep track of already checked teams checkedKeyMap = {}  
+ 
+# iterate over totalTeamInfo for item in totalTeamInfo:  if team is not checked   for row in totalTeamInfo:    if item[team] == item[team]     add the record to teamScoreMap with team as      Key     set team as checked in checkedKeyMap     end if     end For 
+ end if end for 
+ 
+ 
+ # connect to the MongoDb  dbMongo = connect_to_mongoDb()    # get the collection  collection = dbMongo.Team_Score 
+ 
+# generate the JSON format String and insert json into mongoDb for key in teamScoreMap   dataList = get the values for key    for item in dataList:    generate the JSON format String and store in finalString   end for    # convert to JSON Object   data = json_util.loads(finalString)    # insert into MongoDb Collection   collection.insert_one(data)  end for   end Main   # connect to mysql database Def connect_to_mysqlDb():  Set the parameters to connect to mysql db  Return object End connect_to_mySqlDb 
+ 
+ 
+# connect to mongo database Def connect_to_mongoDb():  Set the parameters to connect to mongo db  Return object End connect_to_mongoDb 
